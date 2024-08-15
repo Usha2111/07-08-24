@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+         background: linear-gradient(to left,#b1e0ad, #2eb2c9);
+      }
+       .loader span{
+         animation-timing-function:cubic-bezier(0,1,1,0);
+        position: absolute;
+        top: 280px;
+        left: 00px;
+        border-radius:50%;
+        height: 43px;
+        width: 43px;
+        background-color:greenyellow;
+        font-size: 2rem;
+        text-align: center;
+       }
+    .loader span:nth-child(1){
+        animation:loader 1s infinite;
+        top: 51%;
+        left: 36%;
+        background: #eb4335;
+        box-shadow: 0 0 10px #eb4335, 0 0 40px #eb4335;
+     }
+     .loader span:nth-child(2){
+        animation:loader 1s 0.2s infinite;
+        top: 51%;
+        left: 43%;
+        background: #fbbc05;
+        box-shadow: 0 0 10px #fbbc05, 0 0 40px #fbbc05;
+     }
+     .loader span:nth-child(3){
+        animation:loader 1s 0.4s infinite;
+        top: 51%;
+        left: 50%;
+        background: #34a853;
+        box-shadow: 0 0 10px #34a853, 0 0 40px #34a853;
+     }
+     .loader span:nth-child(4){
+        animation:loader 1s  0.6s infinite;
+        top: 51%;
+        left: 57%;
+        background: #4285f4;
+        box-shadow: 0 0 10px #4285f4, 0 0 40px #4285f4;
+     }
+     .loader span:nth-child(5){
+        animation:loader 1s  0.8s infinite;
+        top: 51%;
+        left: 64%;
+        background: #ea0990;
+        box-shadow: 0 0 10px #ea0990 , 0 0 40px #ea0990;
+     }
+    @keyframes loader {
+        0%{
+       
+            transform:translate(-50%, -50%);
+          
+        }
+        50%{
+         transform:translate(-50%, -150%);
+          }                    
+        100%{
+         transform:translate(-50%, -50%);
+        }
+         }
+        </style>
+</head>
+<body>
+   <div class="loader">
+      <span class="item a">G</span>
+      <span class="item b">U</span>
+      <span class="item c">S</span>
+      <span class="item d">H</span>
+      <span class="item e">A</span>
+      <div class="a" style="position: relative; top: 264px; left: 930px; color: RED;"> LOADING.....</div>
+   </div>
+</body>
+</html>

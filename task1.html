@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="left=device-left, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body{
+         background: linear-gradient(to left,#b1e0ad, #2eb2c9);
+      }
+        .container{
+         position: relative;
+         top: 100px;
+         transform: translate(-50%,-50%);
+        }
+        div{
+          width: 30px;
+          height: 60px;
+          animation-timing-function: linear;
+          animation-iteration-count:infinite;
+          position:fixed;
+          }
+         .itema{
+            background-color:green;
+            animation:itema  1.9s linear infinite;
+            top: 200px;
+            left: 60px;
+         }
+         .itemb{
+            animation:itemb 2.1s linear infinite;
+            top: 200px;
+            left: 95px;
+            background-color: green;
+         }
+         .itemc{
+            animation:itemc 2.3s infinite;
+            top: 200px;
+            left: 130px;
+            background-color: green;
+         }
+         .itemd{
+            animation:itemd 2.3s linear infinite;
+            top: 200px;
+            left: 165px;
+            background-color: green;
+         }
+         .iteme{
+            animation:iteme 1.7s linear infinite;
+            top: 200px;
+            left: 200px;
+            background-color: green;
+         }
+         .itemf{
+            animation:itemf 2.0s linear infinite;
+            top: 200px;
+            left: 235px;
+            background-color: green;
+         }
+         .itemg{
+            animation:itemg 1.8s 1s infinite;
+            top: 200px;
+            left: 270px;
+            background-color: green;
+         }
+         @keyframes itema{
+           50% {
+              background-color:purple;
+              top: 100px;
+              height: 160px;
+            }
+         }
+         @keyframes itemb{
+           50% {
+              background-color:purple;
+              top: 100px;
+              height: 160px;
+            }
+         }
+         @keyframes itemc{
+           50% {
+              background-color:purple;
+              top: 100px;
+              height: 160px;
+            }
+         }
+         @keyframes itemd{
+           50% {
+              background-color:purple;
+              top: 100px;
+              height: 160px;
+            }
+         }
+         @keyframes iteme{
+           50% {
+              background-color:purple;
+              top: 50px;
+              height: 210px;
+            }
+         }
+         @keyframes itemf{
+           50% {
+              background-color:purple;
+              top: 150px;
+              height: 110px;
+            }
+         }
+         @keyframes itemg{
+           50% {
+              background-color:purple;
+              top: 50px;
+              height: 210px;
+            }
+         }
+        .img1{
+         width: 700px;
+         height: 570px;
+         position: relative;
+         left: 250px;
+         bottom: 70px;
+        }
+        .song{
+         position: relative;
+         bottom: 150px;        
+        }
+         h1{
+            position: relative;
+            bottom: 300px;
+         }
+         
+    </style>
+</head>
+<body>
+      <div class="container">
+           <div class="itema"></div>
+           <div class="itemb"></div>
+           <div class="itemc"></div>
+           <div class="itemd"></div>
+           <div class="iteme"></div>
+           <div class="itemf"></div>
+           <div class="itemg"></div>
+     </div>
+     <audio controls class="song"  autoplay>
+        <source class="song1" src="../../Daily Tasks/02-07-24/bhahubali/[iSongs.info] 04 - Sivuni Aana.mp3" type="audio/mp3"> 
+     </audio> 
+         <image class="img1" src="../../Daily Tasks/02-07-24/bhahubali/images.jpg "></image>    
+         <h1>Sivuni Aana song</h1>
+
+</body>
+</html>
